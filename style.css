@@ -1,0 +1,50 @@
+html{
+
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #00a8ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+header ul li{
+    color: white;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+
+.divFoto{
+    width: 50%;
+}
+
+.divTexto{
+    width: 50%;
+}
+
+footer{
+    background-color: #00a8ff;
+}
+
+footer h3{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+}
