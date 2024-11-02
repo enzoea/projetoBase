@@ -1,50 +1,39 @@
-html{
-
-}
-
-body{
-    margin: 0;
-}
-
 header{
+    background-color: black;
     display: flex;
-    background-color: #00a8ff;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0px 100px;
 }
 
 header ul{
     display: flex;
+    gap:50px;
     list-style-type: none;
-    gap: 40px;
 }
 
 header ul li{
     color: white;
 }
 
+h1, p{
+    text-align: center;
+}
 .section{
     display: flex;
-    align-items: center;
-    padding: 10%;
+    justify-content: space-around;
 }
 
-.divFoto{
+.section2{
+    display: flex;
+    padding: 100px;
+}
+
+.texto{
     width: 50%;
 }
 
-.divTexto{
+.imagem{
     width: 50%;
-}
-
-footer{
-    background-color: #00a8ff;
-}
-
-footer h3{
-    text-align: center;
-    padding: 30px;
-    color: white;
-    font-size: 24px;
+   
 }
